@@ -1404,6 +1404,9 @@ case $os in
 	-linux*)
 		os=`echo $os | sed -e 's|linux|linux-gnu|'`
 		;;
+	-hermit*)
+		os=-hermit
+		;;
 	-sunos5*)
 		os=`echo $os | sed -e 's|sunos5|solaris2|'`
 		;;
