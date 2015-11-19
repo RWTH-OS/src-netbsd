@@ -1408,6 +1408,9 @@ case $os in
 	-mac*)
 		os=`echo $os | sed -e 's|mac|macos|'`
 		;;
+	-hermit*)
+		os=-hermit
+		;;
 	-linux-dietlibc)
 		os=-linux-dietlibc
 		;;
